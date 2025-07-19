@@ -6,7 +6,7 @@
 .header {
     height: 700px;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("https://images.pexels.com/photos/1108814/pexels-photo-1108814.jpeg");
+    background-image: linear-gradient(rgba(26, 26, 26,0.7), rgba(26, 26, 26,0.7)), url("https://ik.imagekit.io/u27trd6ax/WhatsApp%20Image%202025-07-19%20at%2016.38.39.jpeg?updatedAt=1752936067181");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -17,7 +17,7 @@ nav {
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8));
+    background-image: linear-gradient(rgba(235, 64, 52,0.8), rgba(235, 64, 52,0.8));
 }
 
 .nav-links {
