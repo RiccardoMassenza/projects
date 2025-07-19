@@ -4,7 +4,7 @@
 }
 
 .header {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-image: linear-gradient(rgba(26, 26, 26,0.7), rgba(26, 26, 26,0.7)), url("https://ik.imagekit.io/u27trd6ax/WhatsApp%20Image%202025-07-19%20at%2016.38.39.jpeg?updatedAt=1752936067181");
     background-position: center;
@@ -53,9 +53,9 @@ nav {
 
 .text-box h1 {
     font-size: 64px;
-    line-height: 2.5em;
+    line-height: 1.5em;
 }
 
 .text-box p {
-    font-size: 48px;
+    font-size: 36px;
 }
