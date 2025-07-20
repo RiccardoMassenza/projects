@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* STILE HEADER */
+.header {
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 26, 26,0.7), rgba(26, 26, 26,0.7)), url("https://ik.imagekit.io/u27trd6ax/WhatsApp%20Image%202025-07-19%20at%2016.38.39.jpeg?updatedAt=1752936067181");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(235, 64, 52,0.8), rgba(235, 64, 52,0.8));
+}
+
+.nav-links {
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+    position: relative;
+    font-size: 18px;
+}
+
+.nav-links ul li a {
+    color: white;
+}
+
+.nav-links ul li a:hover {
+    color: rgb(255, 221, 0);
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 64px;
+    line-height: 1.5em;
+}
+
+.text-box p {
+    font-size: 36px;
+}
+
+.text-box p a {
+    color: white;
+}
+
+.text-box p a:hover {
+    color: #eb4034cc;
+}
+
+
+/* STILE INTRODUZIONE */
+.introduzione {
+    margin: 50px 0px 0px 50px;
+}
+
+.introduzione h2 {
+    margin-bottom: 30px;
+}
+
+.introduzione p {
+    font-size: 20px;
+    margin-right: 50px;
+    line-height: 1.3em;
+    margin-bottom: 70px;
+}
+
+.icone-ricetta {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.icone-ricetta i {
+    font-size: 1.5rem;
+}
+
+.icone-ricetta h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.icone-ricetta p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* STILE INGREDIENTI */
+.ingredienti {
+    margin: 60px 0px -75px 50px;
+}
+
+.ingredienti h2 {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: orange;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.container div {
+    height: 230px;
+    width: 100%;
+    background: white;
+    margin: 40px;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+.container div ul{
+    margin-left: 15px;
+}
+
+.container div ul li{
+    line-height: 1.5em;
+}
+
+
+/* STILE PROCEDIMENTO HEADER*/
+.procedimento-header {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 26, 26,0.7), rgba(26, 26, 26,0.7)), url("https://ik.imagekit.io/u27trd6ax/WhatsApp%20Image%202025-07-19%20at%2017.36.24.jpeg?updatedAt=1752939443618");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.procedimento-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.procedimento-box h2 {
+    font-size: 40px;
+}
+
+
+/* STILE PROCEDIMENTO VERO E PROPRIO*/
+.procedimento {
+    margin-bottom: 100px;
+}
+
+.procedimento h2 {
+    margin: 40px 0px 30px 50px;
+}
+
+.procedimento ol{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.procedimento ol li{
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.procedimento hr {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.procedimento p {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    line-height: 1.3em;
+}

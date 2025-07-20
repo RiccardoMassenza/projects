@@ -1,0 +1,98 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* STILE HEADER */
+.header {
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("https://ik.imagekit.io/u27trd6ax/WhatsApp_Image_2025-07-20_at_11.00.29_1_.jpeg?updatedAt=1753002797409");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 214, 10, 0.8), rgba(255, 214, 10, 0.8));
+}
+
+.nav-links {
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+    position: relative;
+    font-size: 18px;
+}
+
+.nav-links ul li a {
+    color: whitesmoke;
+}
+
+.nav-links ul li a:hover {
+    color: black;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 64px;
+    line-height: 1.5em;
+}
+
+.text-box p {
+    font-size: 40px;
+}
+
+.text-box p a {
+    color: white;
+}
+
+.text-box p a:hover {
+    color: orange;
+}
+
+
+/* STILE INTRODUZIONE */
+.introduzione {
+    height:350px;
+    margin: 50px 0px 0px 60px;
+}
+
+.introduzione h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.introduzione p {
+    font-size: 20px;
+}
+
+
+/* STILE DIVISORE INGREDIENTI */
+.divisore-ingredienti {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)) url("");
+    background-position: center;
+    background-size: cover;
+}
